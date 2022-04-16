@@ -1,0 +1,22 @@
+2021-12-12 22:50:54.062  INFO 7736 --- [main] .j.SpringBootBookLibraryApplicationTests : Starting SpringBootBookLibraryApplicationTests using Java 16.0.1 on DESKTOP-HTHHALI with PID 7736 (started by SankaraKarthikeyan K in C:\Eclipse\Project\SpringBootNewBookLibrary\SpringBootNewBookLibrary)
+2021-12-12 22:50:54.077  INFO 7736 --- [main] .j.SpringBootBookLibraryApplicationTests : No active profile set, falling back to default profiles: default
+2021-12-12 22:50:55.161  INFO 7736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-12 22:50:55.262  INFO 7736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2021-12-12 22:50:57.515  INFO 7736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-12 22:50:57.587  INFO 7736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-12 22:50:57.631  INFO 7736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-12 22:50:58.091  INFO 7736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-12 22:50:59.390  INFO 7736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-12 22:50:59.427  INFO 7736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-12-12 22:51:00.337  INFO 7736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-12 22:51:00.347  INFO 7736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-12 22:51:00.866  WARN 7736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-12 22:51:01.929  INFO 7736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-12-12 22:51:01.930  INFO 7736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-12-12 22:51:01.932  INFO 7736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-12-12 22:51:01.967  INFO 7736 --- [main] .j.SpringBootBookLibraryApplicationTests : Started SpringBootBookLibraryApplicationTests in 8.348 seconds (JVM running for 10.008)
+2021-12-12 22:51:02.853  INFO 7736 --- [main] c.j.controller.LibraryController         : Book does not exists so creating one
+2021-12-12 22:51:02.960  INFO 7736 --- [main] c.j.controller.LibraryController         : Book does not exists so creating one
+2021-12-12 22:51:03.010  INFO 7736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-12 22:51:03.017  INFO 7736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-12 22:51:03.039  INFO 7736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
